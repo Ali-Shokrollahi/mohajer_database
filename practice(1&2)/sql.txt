@@ -1,0 +1,22 @@
+----------------------------------------User----------------------------------------
+########## insert ##########
+
+INSERT INTO `user`(`email`, `first_name`, `last_name`, `password`) VALUES ('ali.shokrollahi.me@gmail.com','Ali','Shokrollahi','Alish123456');
+
+INSERT INTO `user`(`email`, `first_name`, `last_name`, `password`) VALUES ('mahdi.shokrollahi@gmail.com','Mahdi','Shokrollahi','mahdi123456');
+
+
+########## delete ##########
+
+DELETE FROM `user` WHERE id=2;
+
+----------------------------------------Contact us----------------------------------------
+########## insert ##########
+
+INSERT INTO `contact_us`(`email`, `subject`, `message`) VALUES ('ali.shokrollahi.me@gmail.com','problem with registration','Hi. I think there is a problem with registration in your website. please fix it.');
+
+INSERT INTO `contact_us`(`email`, `subject`, `message`) VALUES ('mahdi.shokrollahi@gmail.com','free account','Hi. I am from Iran, so I cant pay you. Please give me free account');
+
+########## delete ##########
+
+DELETE FROM `contact_us` WHERE id=1;
